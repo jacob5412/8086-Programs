@@ -1,7 +1,7 @@
 ;Write a program to find the highest among 5 grades.
 
 data segment
-    STRING1 DB 08h,14h,05h,0Fh,09h
+    STRING1 DB 13h,2ch,63h,58h,50h;
 data ends
  
 code segment

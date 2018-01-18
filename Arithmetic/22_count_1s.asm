@@ -12,12 +12,12 @@ start: mov ax,data
        
        AGAIN: rol al,1
        
-       jnc next
+       jnc next          ;conditional jump if carry flag is 0
        inc bl
        
        NEXT: dec dl
        
-       jnz AGAIN
+       jnz AGAIN         ;short jump if del is not zero
        
 exit: mov ah,04ch
       mov al,0
