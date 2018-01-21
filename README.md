@@ -1,6 +1,6 @@
-# Practice Programs for Evaluation - I
+# 8086 Programs for Evaluation - I
 
-## Arithmetic
+## [Arithmetic](https://github.com/jacobjohn2016/8086-Programs/tree/master/Arithmetic)
 1. Addition of 2 8b numbers
 2. Subtraction
 3. Multiplication
