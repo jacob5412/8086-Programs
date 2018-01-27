@@ -18,6 +18,7 @@
 11. ALP for conversion of 16-bit BCD number into its equivalent HEX number.
 12. ALP for conversion BCD number 7-Segment String.
 13. ALP to copy the string of successive memory locations from one memory to other.
+
     a. Using string instructions
     b. Without using string instruction
 
