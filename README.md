@@ -9,7 +9,7 @@
 6. Multiplication of 2 32b 
 
 ## Expression
-7. ALP to find the Greatest Common Diviser of two unsigned integer.
+7. ALP to find the Greatest Common Divisor of two unsigned integer.
 8. ALP to find the Sum and average of unsigned integer.
 9. Develop and execute an ALP to compute factorial of a positive integer number using recursive procedure.
 
@@ -18,7 +18,9 @@
 11. ALP for conversion of 16-bit BCD number into its equivalent HEX number.
 12. ALP for conversion BCD number 7-Segment String.
 13. ALP to copy the string of successive memory locations from one memory to other.
+
     a. Using string instructions
+    
     b. Without using string instruction
 
 ## Sorting
