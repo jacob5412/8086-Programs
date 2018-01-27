@@ -9,7 +9,7 @@
 6. Multiplication of 2 32b 
 
 ## Expression
-7. ALP to find the Greatest Common Deviser of two unsigned integer.
+7. ALP to find the Greatest Common Diviser of two unsigned integer.
 8. ALP to find the Sum and average of unsigned integer.
 9. Develop and execute an ALP to compute factorial of a positive integer number using recursive procedure.
 
