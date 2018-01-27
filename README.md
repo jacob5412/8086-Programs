@@ -20,6 +20,7 @@
 13. ALP to copy the string of successive memory locations from one memory to other.
 
     a. Using string instructions
+    
     b. Without using string instruction
 
 ## Sorting
