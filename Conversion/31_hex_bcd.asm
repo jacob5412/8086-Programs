@@ -10,27 +10,32 @@ ASSUME CS:CODE,DS:DATA
 
 CODE SEGMENT 
     
-START: MOV AX,DATA
+START: MOV AX,DATA        ;intialize data
        MOV DS,AX
-       MOV SI ,OFFSET BCD
+       
+       LEA SI,BCD
        MOV AX,HEX
+       
        MOV CX,2710H
        CALL SUB1
+       
        MOV CX,03E8H
        CALL SUB1
+       
        MOV CX,0064H
        CALL SUB1
+       
        MOV CX,000AH
        CALL SUB1
+       
        MOV [SI],AL
        
        MOV AH,4CH
        INT 21H
 
-SUB1 PROC NEAR
+  SUB1 PROC NEAR
        MOV BH,0FFH
-
-X1:    INC BH
+   X1: INC BH
        SUB AX,CX
        JNC X1
        ADD AX,CX
