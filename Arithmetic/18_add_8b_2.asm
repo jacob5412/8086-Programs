@@ -1,3 +1,4 @@
+;Program to add two 8b numbers
 DATA SEGMENT
     num1 db ?
     num2 db ?

@@ -1,0 +1,122 @@
+EMU8086 GENERATED LISTING. MACHINE CODE <- SOURCE.
+ 
+19_sub_8b.exe -- emu8086 assembler version: 4.08  
+ 
+[ 2/12/2018  --  12:36:59 AM ] 
+ 
+===================================================================================================
+[LINE]     LOC: MACHINE CODE                          SOURCE
+===================================================================================================
+ 
+[   1]        :                                       ;Program to subtract two 8b numbers
+[   2]        :                                       DATA SEGMENT
+[   3]    0000: 00                                    num1 db ?
+[   4]    0001: 00                                    num2 db ?
+[   5]    0002: 00                                    res DB ?
+[   6]    0003: 0A 0D 45 4E 54 45 52 20 54 48 45 20   MSG1 DB 10,13,"ENTER THE FIRST NUMBER: $"
+                46 49 52 53 54 20 4E 55 4D 42 45 52 
+                3A 20 24                            
+[   7]    001E: 0A 0D 45 4E 54 45 52 20 54 48 45 20   MSG2 DB 10,13,"ENTER THE SECOND NUMBER: $"
+                53 45 43 4F 4E 44 20 4E 55 4D 42 45 
+                52 3A 20 24                         
+[   8]    003A: 0A 0D 52 45 53 55 4C 54 20 4F 46 20   MSG3 DB 10,13,"RESULT OF ADDITION IS: $"
+                41 44 44 49 54 49 4F 4E 20 49 53 3A 
+                20 24                               
+[   9]        :                                       DATA ENDS
+[  10]        :                                       
+[  11]        :                                       ASSUME CS:CODE,DS:DATA
+[  12]        :                                       
+[  13]        :                                       CODE SEGMENT
+[  14]    0060: B8 00 00                              START: MOV AX,DATA
+[  15]    0063: 8E D8                                 MOV DS,AX           ;initialize data segment
+[  16]        :                                       
+[  17]    0065: BA 03 00                              LEA DX,MSG1         ;load address of msg1 into dx
+[  18]    0068: B4 09                                 MOV AH,9H           ;interrupt to display contents of dx
+[  19]    006A: CD 21                                 INT 21H
+[  20]        :                                       
+[  21]    006C: B4 01                                 MOV AH,1H           ;read a character from console
+[  22]    006E: CD 21                                 INT 21H
+[  23]    0070: 2C 30                                 SUB AL,30H          ;convert number into BCD from ASCII form
+[  24]    0072: A2 00 00                              MOV NUM1,AL         ;store number as num1
+[  25]        :                                       
+[  26]    0075: BA 1E 00                              LEA DX,MSG2         ;load address of msg2 into dx
+[  27]    0078: B4 09                                 MOV AH,9H           ;interrupt to display contents of dx
+[  28]    007A: CD 21                                 INT 21H
+[  29]        :                                       
+[  30]    007C: B4 01                                 MOV AH,1H           ;read a character from console
+[  31]    007E: CD 21                                 INT 21H
+[  32]    0080: 2C 30                                 SUB AL,30H          ;convert number into BCD from ASCII form
+[  33]    0082: A2 01 00                              MOV NUM2,AL         ;store number as num2
+[  34]        :                                       
+[  35]    0085: A0 00 00                              MOV AL,num1
+[  36]    0088: 2A 06 01 00                           SUB AL,num2         ;sub num2 from num1
+[  37]    008C: A2 02 00                              MOV RES,AL          ;store sum in res
+[  38]    008F: B4 00                                 MOV AH,0            ;clear garabage value (ah to be used later)
+[  39]    0091: 37                                    AAA                 ;converts hex to bcd and stores values in ah and al
+[  40]    0092: 80 C4 30                              ADD AH,30H          ;first digit converted into bcd
+[  41]    0095: 04 30                                 ADD AL,30H          ;second digit converted from ASCII to BCD
+[  42]        :                                       
+[  43]    0097: 8B D8                                 MOV BX,AX           ;save value of ax into bx
+[  44]    0099: BA 3A 00                              LEA DX,MSG3         ;print ms3
+[  45]    009C: B4 09                                 MOV AH,9H
+[  46]    009E: CD 21                                 INT 21H
+[  47]        :                                       
+[  48]    00A0: B4 02                                 MOV AH,2H           ;print first digit
+[  49]    00A2: 8A D7                                 MOV DL,BH
+[  50]    00A4: CD 21                                 INT 21H
+[  51]        :                                       
+[  52]    00A6: B4 02                                 MOV AH,2            ;print second digit
+[  53]    00A8: 8A D3                                 MOV DL,BL
+[  54]    00AA: CD 21                                 INT 21H
+[  55]        :                                       
+[  56]    00AC: B4 4C                                 MOV AH,4CH
+[  57]    00AE: CD 21                                 INT 21H
+[  58]        :                                       
+[  59]        :                                       CODE ENDS
+[  60]        :                                       END START
+[  61]        :                                       
+ 
+===================================================================================================
+ 
+EXE HEADER - bytes from 0000 to 01FF inclusive.
+
+0000: 4D      -   exe signature (M)
+0001: 5A      -   exe signature (Z)
+0002: B0      -   bytes on last page (l.byte)
+0003: 00      -   bytes on last page (h.byte)
+0004: 02      -   512 byte pages in file (l.byte)
+0005: 00      -   512 byte pages in file (h.byte)
+0006: 01      -   relocations (l.byte)
+0007: 00      -   relocations (h.byte)
+0008: 20      -   paragraphs in header (l.byte)
+0009: 00      -   paragraphs in header (h.byte)
+000A: 00      -   minimum memory (l.byte)
+000B: 00      -   minimum memory (h.byte)
+000C: FF      -   maximum memory (l.byte)
+000D: FF      -   maximum memory (h.byte)
+000E: 00      -   SS - stack segment (l.byte)
+000F: 00      -   SS - stack segment (h.byte)
+0010: 00      -   SP - stack pointer (l.byte)
+0011: 00      -   SP - stack pointer (h.byte)
+0012: E8      -   check sum (l.byte)
+0013: 3A      -   check sum (h.byte)
+0014: 00      -   IP - instruction pointer (l.byte)
+0015: 00      -   IP - instruction pointer (h.byte)
+0016: 06      -   CS - code segment (l.byte)
+0017: 00      -   CS - code segment (h.byte)
+0018: 1E      -   relocation table adress (l.byte)
+0019: 00      -   relocation table adress (h.byte)
+001A: 00      -   overlay number (l.byte)
+001B: 00      -   overlay number (h.byte)
+001C: 01      -   signature (l.byte)
+001D: 00      -   signature (h.byte)
+001E: 01      -   relocation table - offset inside segment (l.byte)
+001F: 00      -   relocation table - offset inside segment (h.byte)
+0020: 06      -   relocation table - segment anchor (l.byte)
+0021: 00      -   relocation table - segment anchor (h.byte)
+0022 to 01FF  -   reserved relocation area  (00) 
+
+
+
+
+===================================================================================================
