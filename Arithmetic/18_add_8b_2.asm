@@ -31,23 +31,23 @@ CODE SEGMENT
            SUB AL,30H          ;convert number into BCD from ASCII form
            MOV NUM2,AL         ;store number as num2
            
-           ADD AL,num1
-           MOV RES,AL
-           MOV AH,0
-           AAA
-           ADD AH,30H        
-           ADD AL,30H
+           ADD AL,num1         ;add num1 to num2
+           MOV RES,AL          ;store sum in res
+           MOV AH,0            ;clear garabage value (ah to be used later)
+           AAA                 ;converts hex to bcd and stores values in ah and al 
+           ADD AH,30H          ;first digit converted into bcd
+           ADD AL,30H          ;second digit converted from ASCII to BCD
            
-           MOV BX,AX
-           LEA DX,MSG3
+           MOV BX,AX           ;save value of ax into bx
+           LEA DX,MSG3         ;print ms3
            MOV AH,9H
            INT 21H
            
-           MOV AH,2H
-           MOV DL,BH
+           MOV AH,2H           ;print first digit
+           MOV DL,BH                                
            INT 21H
            
-           MOV AH,2
+           MOV AH,2            ;print second digit
            MOV DL,BL
            INT 21H
     
