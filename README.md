@@ -41,17 +41,18 @@
     * Switch on the buzzer on water overflow
 
 
-# External add-on devices
+# [External add-on devices](https://github.com/jacobjohn2016/8086-Programs/tree/master/External%20Devices)
 
 *__Note:__ All the given programs must be emulated using emu8086 only.*
+[Download link](http://www.emu8086.com)
 
 1. Traffic Lights
     * One
     * Two
-2. LED display
-3. Stepper Motor
-4. Thermometer
-5. Robot
+2. LED display [LED_display_test.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/LED_display_test.asm)
+3. Stepper Motor [stepper_motor.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/stepper_motor.asm)
+4. Thermometer [thermometer.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/thermometer.asm)
+5. Robot [robot.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/robot.asm)
 6. Timer
-7. Keyboard
+7. Keyboard [keybrd.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/keybrd.asm)
 8. 
