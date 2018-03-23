@@ -7,53 +7,57 @@
 
 DATA SEGMENT
     msg1 db 10,13,"The water level is: $"
-    msg2 db 10,13,"Switch on motor. $"
-    msg3 db 10,13,"Switch off motor. $"
+    msg2 db 10,13,"Switch ON motor. $"
+    msg3 db 10,13,"Switch OFF motor. $"
+    msg4 db 10,13,"Water overflow! $"
 DATA ENDS
 
 CODE SEGMENT
     ASSUME DS:DATA,CS:CODE
 
-START: mov ax,@data ;intialize data segment
-       mov ds,ax
+START: mov AX,@data ;intialize data segment
+       mov DS,AX
        
-       mov cl,1h
+       mov CL,1H
 
-L1:    lea dx,msg1  ;displaying water level
-       mov ah,9h
-       int 21h
+L1:    lea DX,msg1  ;displaying water level message
+       mov AH,9H
+       int 21H
        
-       add cl,30H
-       mov dl,cl
-       mov ah,2h
-       int 21h
-       sub cl,30H 
+       add CL,30H   ;ASCII adjust before displaying
+       mov DL,CL
+       mov AH,2H    ;display
+       int 21H
+       sub CL,30H   ;ASCII adjust after displaying
 
-       cmp cl,8     ;switch off motor
-       je off
+       cmp CL,8H    ;switch off motor
+       je off       ;jump to off if = 8
        
-       cmp cl,1     ;switch on motor
-       je on
+       cmp CL,1H    ;switch on motor
+       je on        ;jump to on if = 1
        
-back:  inc cl
-       cmp cl,9h
-       jnz l1
+back:  inc CL       ;increase water level by 1
+       cmp CL,8H    ;check if water level is overflowing
+       jle l1
        
-       jmp exit 
+       jmp exit
        
-on:    lea dx,msg2
-       mov ah,9h
-       int 21h
+on:    lea DX,msg2
+       mov AH,9h
+       int 21H
        jmp back
        
-off:   lea dx,msg3
-       mov ah,9h
-       int 21h
+off:   lea DX,msg3
+       mov AH,9h
+       int 21H
+       lea DX,msg4  ;displaying overflow 
+       mov AH,9H
+       int 21H
        jmp back
 
 
-exit:  mov ah,4ch
-       int 21h              
+exit:  mov AH,4CH
+       int 21H              
        
 CODE ENDS
 END START
