@@ -55,4 +55,4 @@
 5. Robot [robot.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/robot.asm)
 6. Timer [timer.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/timer.asm)
 7. Keyboard [keybrd.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/keybrd.asm)
-8. Mouse
+8. Mouse [mouse.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/mouse.asm)
