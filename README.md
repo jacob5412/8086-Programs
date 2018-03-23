@@ -33,7 +33,7 @@
 # Assessment Programs
 
 1. Emulate a counter on emu8086, to count the no. of 1’s (binary) in the given input value. [22_count_1s.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/22_count_1s.asm)
-2. Emulate water level controller on emu8086 for the following Specifications:
+2. Emulate water level controller on emu8086 for the following Specifications: [water_level_controller.asm](https://github.com/jacobjohn2016/8086-Programs/tree/master/Simulation)
     * No. of water levels in the overhead tank is 8
     * Display the current level of water with a buzzer
     * Switch on the motor if the water level is 1
