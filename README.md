@@ -39,3 +39,19 @@
     * Switch on the motor if the water level is 1
     * Switch off the motor if the water level is 8
     * Switch on the buzzer on water overflow
+
+
+# External add-on devices
+
+__Note:__ All the given programs must be emulated using emu8086 only.
+
+1. Traffic Lights
+    * One
+    * Two
+2. LED display
+3. Stepper Motor
+4. Thermometer
+5. Robot
+6. Timer
+7. Keyboard
+8. 
