@@ -43,7 +43,7 @@
 
 # External add-on devices
 
-__Note:__ All the given programs must be emulated using emu8086 only.
+*__Note:__ All the given programs must be emulated using emu8086 only.*
 
 1. Traffic Lights
     * One
