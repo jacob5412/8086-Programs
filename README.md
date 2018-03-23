@@ -47,12 +47,12 @@
 [Download link](http://www.emu8086.com)
 
 1. Traffic Lights
-    * One
-    * Two
+    * [traffic_lights](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/traffic_lights.asm)
+    * [traffic_lights2](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/traffic_lights2.asm)
 2. LED display [LED_display_test.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/LED_display_test.asm)
 3. Stepper Motor [stepper_motor.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/stepper_motor.asm)
 4. Thermometer [thermometer.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/thermometer.asm)
 5. Robot [robot.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/robot.asm)
-6. Timer
+6. Timer [timer.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/timer.asm)
 7. Keyboard [keybrd.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/keybrd.asm)
-8. 
+8. Mouse
