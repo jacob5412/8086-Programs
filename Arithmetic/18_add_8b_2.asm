@@ -20,7 +20,8 @@ CODE SEGMENT
            
            MOV AH,1H           ;read a character from console
            INT 21H
-           SUB AL,30H          ;convert number into BCD from ASCII form
+           SUB AL,30H          ;convert number into BCD from AS
+           CII form
            MOV NUM1,AL         ;store number as num1
            
            LEA DX,MSG2         ;load address of msg2 into dx
