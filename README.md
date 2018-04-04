@@ -8,10 +8,38 @@
 5. Addition of 2 16b [17_add_8b_16b.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/17_add_8b_16b.asm)
 6. Multiplication of 2 32b [28_multiply_2_32b.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/28_multiply_2_32b.asm)
 
+### Extras
+1. Sum of n 8b
+2. Print array
+3. Add two 8bit numbers
+4. Load Effective Address
+5. Offset
+6. Count number of 1s in a binary number
+7. Find the largest number among 5 grades
+8. Divide 16b by 8b 
+9. Add 16b with carry
+10. Add 16b BCD
+11. Decimal Adjust after addition
+
 ## [Expression](https://github.com/jacobjohn2016/8086-Programs/tree/master/Expression)
 7. ALP to find the Greatest Common Divisor of two unsigned integer.[29_gcd_two.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/29_gcd_two.asm)
 8. ALP to find the Sum and average of unsigned integer. [30_sum_average_unsigned.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/30_sum_average_unsigned.asm)
 9. Develop and execute an ALP to compute factorial of a positive integer number using recursive procedure. [31_fact.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/31_fact.asm)
+
+### Extras
+1. Transfer string from one memory location to another.
+2. Count vowels in a word
+3. Calculate power(a,b) i.e a^b
+4. Sum and average of values stored in an array.
+5. Find Reverse of an array.
+6. Prompts the user to enter an array and displays it
+7. Count odd and even numbers using division
+8. Check if number is even or odd
+9. Check if given number is prime
+10. Fibonacci Sequence
+11. Concatenation of strings
+12. Check if string contains substring
+13. Count number of words
 
 ## [Conversion](https://github.com/jacobjohn2016/8086-Programs/tree/master/Conversion)
 10. ALP for conversion of 16-bit HEX number into its equivalent BCD number.[31_hex_bcd.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Conversion/31_hex_bcd.asm)
@@ -23,12 +51,27 @@
     
     b. Without using string instruction [34_copy_without_string_instruction.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Conversion/34_copy_without_string_instruction.asm)
 
+### Extras
+1. Compare two strings using string instruction
+2. Reverse a number
+3. Decimal number to binary
+4. Decimal to octal
+5. Hexadecimal to decimal
+
 ## [Sorting](https://github.com/jacobjohn2016/8086-Programs/tree/master/Sorting)
 14. ALP to Sort a set of unsigned integer numbers in ascending/ descending order using Bubble sort algorithm. [35_bubble_sort.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Sorting/35_bubble_sort.asm)
+
+### Extras
+1. Array Ascending
+2. Array Descending
 
 ## [Searching](https://github.com/jacobjohn2016/8086-Programs/tree/master/Searching)
 15. Develop and execute ALP that implements Binary search algorithm. The data consists of sorted 16 bit unsigned integers. The search key is also a 16 bit unsigned integer. [36_binary_search.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Searching/36_binary_search.asm)
 
+### Extras
+1. Search Element in an array
+2. Linear Search
+3. Occurences of character
 
 # Assessment Programs
 
