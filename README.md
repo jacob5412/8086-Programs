@@ -72,12 +72,15 @@
     * Switch on the motor if the water level is 1
     * Switch off the motor if the water level is 8
     * Switch on the buzzer on water overflow
-3. Emulate an ALP on emu8086 to read 20 bytes from an input device (User). Multiply the input value by 2 and store the result in memory with segment address as 5000h and offset as 900h.
-4. Emulate a fire monitoring system on emu8086 for the following specifications: [fire_monitoring_system.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Simulation/fire_monitoring_system.asm)
+3. Emulate a fire monitoring system on emu8086 for the following specifications: [fire_monitoring_system.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Simulation/fire_monitoring_system.asm)
     * Define the threshold for the temperature of two rooms
     * Generate the temperature value in 8b resolution
     * Switch on the alarm and display an alarm message when the threshold of either of the room is reached
     * Remove the alarm and bring the temperature below the threshold
+4. Design and Emulate a smart automation system for a garment manufacturing unit with the following requirements:- [garment_defect.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Simulation/garment_defect.asm)
+    * To detect all possible defects.
+    * To remove the defective pieces.
+    * To provide comprehensive inventory report.
 
 # [External add-on devices](https://github.com/jacobjohn2016/8086-Programs/tree/master/External%20Devices)
 
