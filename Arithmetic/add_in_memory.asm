@@ -19,4 +19,5 @@ skip:   inc si          ;point to next offset
         
         mov [si],ax     ;store final result in 20,009H
         
-        HLT                                                
+        HLT 
+CODE ENDS                                               
