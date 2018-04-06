@@ -4,10 +4,10 @@ stack   SEGMENT STACK
         stack   ends
 
         data    SEGMENT
-        p_n db cr, lf, 'Enter n: ',0
-		p_num db  cr, lf, 'Enter the array:',cr, lf,0
-		p_even db cr, lf, 'Even nos: ',0
-		p_odd db  cr, lf, 'Odd  nos: ',0
+        p_n db 10,13, 'Enter n: $'
+		p_num db  10,13, 'Enter the array: $'
+		p_even db 10,13, 'Even nos: $'
+		p_odd db 10,13, 'Odd  nos: $'
 		n dw ?
         evn dw ?
 		odd dw ?
@@ -18,7 +18,7 @@ stack   SEGMENT STACK
 
         code    SEGMENT
                 ASSUME cs:code,ds:data
-        start:  mov ax,SEG data
+        start:  mov ax,data
                 mov ds,ax
 
                 output p_n		;input n
