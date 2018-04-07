@@ -81,6 +81,7 @@
     * To detect all possible defects.
     * To remove the defective pieces.
     * To provide comprehensive inventory report.
+5. Find the largest number from an unordered array of sixteen 8-bit numbers stored sequentially in memory location 2000:5000H. Store the largest number in memory location 2000:5000H.[finding_largest_number_memory.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/finding_largest_number_memory.asm)
 
 # [External add-on devices](https://github.com/jacobjohn2016/8086-Programs/tree/master/External%20Devices)
 
