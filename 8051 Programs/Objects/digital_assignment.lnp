@@ -1,4 +1,0 @@
-".\Objects\STARTUP.obj",
-".\Objects\square_wave_10hz.obj" 
-TO ".\Objects\digital_assignment" 
-PRINT(".\Listings\digital_assignment.m51")
