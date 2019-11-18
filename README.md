@@ -1,13 +1,13 @@
 # 8086 Programs for Evaluation - I
 
 ## [Arithmetic](https://github.com/jacobjohn2016/8086-Programs/tree/master/Arithmetic)
-1. Addition of 2 8b numbers [18_add_8b_2.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/18_add_8b_2.asm)
+1. Addition of 2 8b numbers [18_add_8b_2.asm](Arithmetic/18_add_8b_2.asm)
 2. Subtraction [19_sub_8b.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/19_sub_8b.asm)
 3. Multiplication [24_multiply_8b.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/24_multiply_8b.asm)
 4. Division of 16b with 8b number [25_divide_16b_by_8b.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/25_divide_16b_by_8b.asm)
 5. Addition of 2 16b [17_add_8b_16b.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/17_add_8b_16b.asm)
 6. Multiplication of 2 32b [28_multiply_2_32b.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/28_multiply_2_32b.asm)
-7. Sum of n 8b [15_Sum_of_n_8b.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/15_Sum_of_n_8b.asm)
+7. Sum of n 8b [Sum_of_n_8b.asm](/Arithmetic/Sum_of_n_8b.asm)
 8. Print array [16_print_array.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/16_print_array.asm)
 9. Add two 8bit numbers [18_add_8b_2.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/18_add_8b_2.asm)
 10. Load Effective Address [20_lea.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/20_lea.asm)
