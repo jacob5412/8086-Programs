@@ -1,34 +1,34 @@
 ; check whether a number is even or odd
-DATA SEGMENT
-MSG1 DB 10,13,'ENTER NUMBER HERE :- $'
-MSG2 DB 10,13,'ENTERED VALUE IS EVEN$'
-MSG3 DB 10,13,'ENTERED VALUE IS ODD$'
-DATA ENDS
-DISPLAY MACRO MSG
-MOV AH,9
-LEA DX,MSG
-INT 21H
-ENDM
-CODE SEGMENT
-ASSUME CS:CODE,DS:DATA
-START:
-MOV AX,DATA
-MOV DS,AX
-DISPLAY MSG1
-MOV AH,1
-INT 21H
-MOV AH,0
-CHECK: MOV DL,2
-DIV DL
-CMP AH,0
-JNE ODD
-EVEN:
-DISPLAY MSG2
-JMP DONE
-ODD:
-DISPLAY MSG3
-DONE:
-MOV AH,4CH
-INT 21H
-CODE ENDS
-END START
+data segment
+msg1 db 10,13,'enter number here :- $'
+msg2 db 10,13,'entered value is even$'
+msg3 db 10,13,'entered value is odd$'
+data ends
+display macro msg
+mov ah,9
+lea dx,msg
+int 21h
+endm
+code segment
+assume cs:code,ds:data
+start:
+mov ax,data
+mov ds,ax
+display msg1
+mov ah,1
+int 21h
+mov ah,0
+check: mov dl,2
+div dl
+cmp ah,0
+jne odd
+even:
+display msg2
+jmp done
+odd:
+display msg3
+done:
+mov ah,4ch
+int 21h
+code ends
+end start
