@@ -11,7 +11,7 @@
 8. Print array [16_print_array.asm](Arithmetic/print_array.asm)
 9. Add two 8bit numbers [18_add_8b_2.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/18_add_8b_2.asm)
 10. Load Effective Address [lea.asm](/Arithmetic/lea.asm)
-11. Offset [21_offset.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/21_offset.asm)
+11. Offset [offset.asm](/Arithmetic/offset.asm)
 12. Count number of 1s in a binary number [22_count_1s.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/22_count_1s.asm)
 13. Find the largest number among 5 grades [23_find_largest.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/23_find_largest.asm)
 14. Divide 16b by 8b [25_divide_16b_by_8b.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/25_divide_16b_by_8b.asm)
