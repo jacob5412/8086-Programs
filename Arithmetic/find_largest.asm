@@ -1,7 +1,7 @@
-;Write a program to find the highest among 5 grades.
+;write a program to find the highest among 5 grades.
 
 data segment
-    STRING1 DB 13h,2ch,63h,58h,50h;
+    string1 db 13h,2ch,63h,58h,50h;
 data ends
  
 code segment
@@ -11,9 +11,9 @@ start: mov ax, data
        mov cx, 04h         ;set up loop counter
 
        mov bl, 00h         ;bl stores highest grade
-       LEA SI, STRING1     ;si points to first grade
+       lea si, string1     ;si points to first grade
 
-up:    mov al, [SI]        ;compare next grade to highest
+up:    mov al, [si]        ;compare next grade to highest
        cmp al, bl          
        jl nxt              ;jump if al is still the highest
        mov bl, al          ;else bl holds new highest
