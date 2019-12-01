@@ -8,7 +8,7 @@
 5. Addition of 2 16b [add_8b_16b.asm](Arithmetic/add_8b_16b.asm)
 6. Multiplication of 2 32b [28_multiply_2_32b.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/28_multiply_2_32b.asm)
 7. Sum of n 8b [Sum_of_n_8b.asm](/Arithmetic/Sum_of_n_8b.asm)
-8. Print array [16_print_array.asm](Arithmetic/print_array.asm)
+8. Print array [print_array.asm](Arithmetic/print_array.asm)
 9. Add two 8bit numbers [18_add_8b_2.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/18_add_8b_2.asm)
 10. Load Effective Address [lea.asm](/Arithmetic/lea.asm)
 11. Offset [offset.asm](/Arithmetic/offset.asm)
