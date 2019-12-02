@@ -1,14 +1,14 @@
-.MODEL SMALL
-.STACK 200
-.DATA
-NUM1 DB	27H
-NUM2 DB	35H	
+.model small
+.stack 200
+.data
+num1 db	27h
+num2 db	35h	
 
-.CODE
-.STARTUP
-	MOV	AL, NUM1	;load AX with number NUM1
-	ADD AL, NUM2	;AL = AL + NUM2 i.e. AL = 5CH = 92 in decimal
-	;The expected result is 62 in decimal
-	DAA				; AL = 62
-.EXIT
-END
+.code
+.startup
+	mov	al, num1	;load ax with number num1
+	add al, num2	;al = al + num2 i.e. al = 5ch = 92 in decimal
+	;the expected result is 62 in decimal
+	daa				; al = 62
+.exit
+end
