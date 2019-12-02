@@ -17,7 +17,7 @@
 14. Divide 16b by 8b [25_divide_16b_by_8b.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/25_divide_16b_by_8b.asm)
 15. Add 16b with carry [26_add_16b_carry.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/26_add_16b_carry.asm)
 16. Add 16b BCD [add_16b_bcd.asm](/Arithmetic/add_16b_bcd.asm)
-17. Decimal Adjust after addition [36_daa.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/36_daa.asm)
+17. Decimal Adjust after addition [daa.asm](/Arithmetic/daa.asm)
 
 ## [Expression](https://github.com/jacobjohn2016/8086-Programs/tree/master/Expression)
 18. ALP to find the Greatest Common Divisor of two unsigned integer.[29_gcd_two.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/29_gcd_two.asm)
