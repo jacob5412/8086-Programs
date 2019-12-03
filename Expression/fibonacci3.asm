@@ -4,7 +4,7 @@
 .code
 
 Mov ax, @data 
-Mov ds, ax
+Mov ds, a
 mov cx, 0000h 
 Mov cl, 05h
 Mov al, 00h 
