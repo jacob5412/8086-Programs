@@ -4,7 +4,7 @@
 1. Addition of 2 8b numbers [add_8b_2.asm](Arithmetic/add_8b_2.asm)
 2. Subtraction [sub_8b.asm](Arithmetic/sub_8b.asm)
 3. Multiplication [multiply_8b.asm](/Arithmetic/multiply_8b.asm)
-4. Division of 16b with 8b number [25_divide_16b_by_8b.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/25_divide_16b_by_8b.asm)
+4. Division of 16b with 8b number [divide_16b_by_8b.asm](/Arithmetic/divide_16b_by_8b.asm)
 5. Addition of 2 16b [add_8b_16b.asm](Arithmetic/add_8b_16b.asm)
 6. Multiplication of 2 32b [28_multiply_2_32b.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/28_multiply_2_32b.asm)
 7. Sum of n 8b [Sum_of_n_8b.asm](/Arithmetic/Sum_of_n_8b.asm)
