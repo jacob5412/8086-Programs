@@ -13,7 +13,7 @@
 10. Load Effective Address [lea.asm](/Arithmetic/lea.asm)
 11. Offset [offset.asm](/Arithmetic/offset.asm)
 12. Count number of 1s in a binary number [count_1s.asm](/Arithmetic/count_1s.asm)
-13. Find the largest number among 5 grades [find_largest.asm](/Arithmetic/find_largest.asm)
+13. Find the largest number among 5 grades [find_largest.asm](/Arithmetic/23_find_largest.asm)
 14. Divide 16b by 8b [divide_16b_by_8b.asm](/Arithmetic/divide_16b_by_8b.asm)
 15. Add 16b with carry [add_16b_carry.asm](/Arithmetic/add_16b_carry.asm)
 16. Add 16b BCD [add_16b_bcd.asm](/Arithmetic/add_16b_bcd.asm)
