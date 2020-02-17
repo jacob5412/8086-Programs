@@ -20,7 +20,7 @@
 17. Decimal Adjust after addition [daa.asm](/Arithmetic/daa.asm)
 
 ## [Expression](https://github.com/jacobjohn2016/8086-Programs/tree/master/Expression)
-18. ALP to find the Greatest Common Divisor of two unsigned integer.[29_gcd_two.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/29_gcd_two.asm)
+18. ALP to find the Greatest Common Divisor of two unsigned integer.[gcd_two.asm](/Expression/gcd_two.asm)
 19. ALP to find the Sum and average of unsigned integer. [30_sum_average_unsigned.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/30_sum_average_unsigned.asm)
 20. Develop and execute an ALP to compute factorial of a positive integer number using recursive procedure. [31_fact.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/31_fact.asm)
 21. Transfer string from one memory location to another. [copy_string_memory_location.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/copy_string_memory_location.asm)
