@@ -38,7 +38,7 @@
 33. Count number of words [count_words.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/count_words.asm)
 
 ## [Conversion](https://github.com/jacobjohn2016/8086-Programs/tree/master/Conversion)
-34. ALP for conversion of 16-bit HEX number into its equivalent BCD number.[31_hex_bcd.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Conversion/31_hex_bcd.asm)
+34. ALP for conversion of 16-bit HEX number into its equivalent BCD number.[hex_bcd.asm](/Conversion/hex_bcd.asm)
 35. ALP for conversion of 16-bit BCD number into its equivalent HEX number. [32_bcd_hex.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Conversion/32_bcd_hex.asm)
 36. ALP for conversion BCD number 7-Segment String. [33_seven_segment.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Conversion/33_seven_segment.asm)
 37. ALP to copy the string of successive memory locations from one memory to other.
