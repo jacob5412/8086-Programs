@@ -22,7 +22,7 @@
 ## [Expression](https://github.com/jacobjohn2016/8086-Programs/tree/master/Expression)
 18. ALP to find the Greatest Common Divisor of two unsigned integer.[gcd_two.asm](/Expression/gcd_two.asm)
 19. ALP to find the Sum and average of unsigned integer. [sum_average_unsigned.asm](/Expression/sum_average_unsigned.asm)
-20. Develop and execute an ALP to compute factorial of a positive integer number using recursive procedure. [fact.asm](Expression/fact.asm)
+20. Develop and execute an ALP to compute factorial of a positive integer number using recursive procedure. [fact.asm](/Expression/fact.asm)
 21. Transfer string from one memory location to another. [copy_string_memory_location.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/copy_string_memory_location.asm)
 22. Count vowels in a word [count_vowels.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/count_vowels.asm)
 23. Calculate power(a,b) i.e a^b [power.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/power.asm)
