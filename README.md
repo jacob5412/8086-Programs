@@ -53,7 +53,7 @@
 42. Hexadecimal to decimal [hex_to_decimal.asm](/Conversion/hex_to_decimal.asm)
 
 ## [Sorting](https://github.com/jacobjohn2016/8086-Programs/tree/master/Sorting)
-43. ALP to Sort a set of unsigned integer numbers in ascending/ descending order using Bubble sort algorithm. [35_bubble_sort.asm](/Sorting/35_bubble_sort.asm)
+43. ALP to Sort a set of unsigned integer numbers in ascending/ descending order using Bubble sort algorithm. [bubble_sort.asm](/Sorting/bubble_sort.asm)
 44. Array Ascending [array_ascending.asm](/Sorting/array_ascending.asm)
 45. Array Descending [array_descending.asm](/Sorting/array_descending.asm)
 
