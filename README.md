@@ -26,62 +26,62 @@
 21. Transfer string from one memory location to another. [copy_string_memory_location.asm](/Expression/copy_string_memory_location.asm)
 22. Count vowels in a word [count_vowels.asm](/Expression/count_vowels.asm)
 23. Calculate power(a,b) i.e a^b [power.asm](/Expression/power.asm)
-24. Average of values stored in an array. [average_sum_array.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/average_sum_array.asm)
-25. Find Reverse of an array. [reverse_array.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/reverse_array.asm)
-26. Prompts the user to enter an array and displays it [prompt_user_array+display.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/prompt_user_array%2Bdisplay.asm)
-27. Find largest number in memory location [finding_largest_number_memory.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/finding_largest_number_memory.asm)
-28. Check if number is even or odd [check_number_even_odd.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/check_number_even_odd.asm)
-29. Check if given number is prime [given_number_prime.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/given_number_prime.asm)
-30. Fibonacci Sequence [fibonacci.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/fibonacci.asm) || [fibonacci2.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/fibonacci2.asm) || [fibonacci3.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/fibonacci3.asm)
-31. Concatenation of strings [concatenation_string.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/concatenation_string.asm)
-32. Check if string contains substring [substring_in_string.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/substring_in_string.asm)
-33. Count number of words [count_words.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/count_words.asm)
+24. Average of values stored in an array. [average_sum_array.asm](/Expression/average_sum_array.asm)
+25. Find Reverse of an array. [reverse_array.asm](/Expression/reverse_array.asm)
+26. Prompts the user to enter an array and displays it [prompt_user_array+display.asm](/Expression/prompt_user_array%2Bdisplay.asm)
+27. Find largest number in memory location [finding_largest_number_memory.asm](/Expression/finding_largest_number_memory.asm)
+28. Check if number is even or odd [check_number_even_odd.asm](/Expression/check_number_even_odd.asm)
+29. Check if given number is prime [given_number_prime.asm](/Expression/given_number_prime.asm)
+30. Fibonacci Sequence [fibonacci.asm](/Expression/fibonacci.asm) || [fibonacci2.asm](/Expression/fibonacci2.asm) || [fibonacci3.asm](/Expression/fibonacci3.asm)
+31. Concatenation of strings [concatenation_string.asm](/Expression/concatenation_string.asm)
+32. Check if string contains substring [substring_in_string.asm](/Expression/substring_in_string.asm)
+33. Count number of words [count_words.asm](/Expression/count_words.asm)
 
 ## [Conversion](https://github.com/jacobjohn2016/8086-Programs/tree/master/Conversion)
 34. ALP for conversion of 16-bit HEX number into its equivalent BCD number.[hex_bcd.asm](/Conversion/hex_bcd.asm)
-35. ALP for conversion of 16-bit BCD number into its equivalent HEX number. [32_bcd_hex.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Conversion/32_bcd_hex.asm)
-36. ALP for conversion BCD number 7-Segment String. [33_seven_segment.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Conversion/33_seven_segment.asm)
+35. ALP for conversion of 16-bit BCD number into its equivalent HEX number. [32_bcd_hex.asm](/Conversion/32_bcd_hex.asm)
+36. ALP for conversion BCD number 7-Segment String. [33_seven_segment.asm](/Conversion/33_seven_segment.asm)
 37. ALP to copy the string of successive memory locations from one memory to other.
 
-    a. Using string instructions [34_copy_string_instruction.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Conversion/34_copy_string_instruction.asm)
+    a. Using string instructions [34_copy_string_instruction.asm](/Conversion/34_copy_string_instruction.asm)
     
-    b. Without using string instruction [34_copy_without_string_instruction.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Conversion/34_copy_without_string_instruction.asm)
-38. Compare two strings [compare_strings.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Conversion/compare_strings.asm)
-39. Reverse a number [reverse_number.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Conversion/reverse_number.asm)
-40. Decimal to binary [decimal_to_binary.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Conversion/decimal_to_binary.asm)
-41. Decimal to octal [decimal_to_octal.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Conversion/decimal_to_octal.asm)
-42. Hexadecimal to decimal [hex_to_decimal.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Conversion/hex_to_decimal.asm)
+    b. Without using string instruction [34_copy_without_string_instruction.asm](/Conversion/34_copy_without_string_instruction.asm)
+38. Compare two strings [compare_strings.asm](/Conversion/compare_strings.asm)
+39. Reverse a number [reverse_number.asm](/Conversion/reverse_number.asm)
+40. Decimal to binary [decimal_to_binary.asm](/Conversion/decimal_to_binary.asm)
+41. Decimal to octal [decimal_to_octal.asm](/Conversion/decimal_to_octal.asm)
+42. Hexadecimal to decimal [hex_to_decimal.asm](/Conversion/hex_to_decimal.asm)
 
 ## [Sorting](https://github.com/jacobjohn2016/8086-Programs/tree/master/Sorting)
-43. ALP to Sort a set of unsigned integer numbers in ascending/ descending order using Bubble sort algorithm. [35_bubble_sort.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Sorting/35_bubble_sort.asm)
-44. Array Ascending [array_ascending.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Sorting/array_ascending.asm)
-45. Array Descending [array_descending.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Sorting/array_descending.asm)
+43. ALP to Sort a set of unsigned integer numbers in ascending/ descending order using Bubble sort algorithm. [35_bubble_sort.asm](/Sorting/35_bubble_sort.asm)
+44. Array Ascending [array_ascending.asm](/Sorting/array_ascending.asm)
+45. Array Descending [array_descending.asm](/Sorting/array_descending.asm)
 
 ## [Searching](https://github.com/jacobjohn2016/8086-Programs/tree/master/Searching)
-46. Develop and execute ALP that implements Binary search algorithm. The data consists of sorted 16 bit unsigned integers. The search key is also a 16 bit unsigned integer. [36_binary_search.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Searching/36_binary_search.asm)
-47. Search Element in an array [search_element_array.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Searching/search_element_array.asm)
-48. Linear Search [linear_search.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Searching/linear_search.asm)
-49. Occurences of character [occurences_character_count.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Searching/occurences_character_count.asm)
+46. Develop and execute ALP that implements Binary search algorithm. The data consists of sorted 16 bit unsigned integers. The search key is also a 16 bit unsigned integer. [36_binary_search.asm](/Searching/36_binary_search.asm)
+47. Search Element in an array [search_element_array.asm](/Searching/search_element_array.asm)
+48. Linear Search [linear_search.asm](/Searching/linear_search.asm)
+49. Occurences of character [occurences_character_count.asm](/Searching/occurences_character_count.asm)
 
 # Assessment Programs
 
-1. Emulate a counter on emu8086, to count the no. of 1’s (binary) in the given input value. [22_count_1s.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Arithmetic/22_count_1s.asm)
-2. Emulate water level controller on emu8086 for the following Specifications: [water_level_controller.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Simulation/water_level_controller.asm)
+1. Emulate a counter on emu8086, to count the no. of 1’s (binary) in the given input value. [22_count_1s.asm](/Arithmetic/22_count_1s.asm)
+2. Emulate water level controller on emu8086 for the following Specifications: [water_level_controller.asm](/Simulation/water_level_controller.asm)
     * No. of water levels in the overhead tank is 8
     * Display the current level of water with a buzzer
     * Switch on the motor if the water level is 1
     * Switch off the motor if the water level is 8
     * Switch on the buzzer on water overflow
-3. Emulate a fire monitoring system on emu8086 for the following specifications: [fire_monitoring_system.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Simulation/fire_monitoring_system.asm)
+3. Emulate a fire monitoring system on emu8086 for the following specifications: [fire_monitoring_system.asm](/Simulation/fire_monitoring_system.asm)
     * Define the threshold for the temperature of two rooms
     * Generate the temperature value in 8b resolution
     * Switch on the alarm and display an alarm message when the threshold of either of the room is reached
     * Remove the alarm and bring the temperature below the threshold
-4. Design and Emulate a smart automation system for a garment manufacturing unit with the following requirements:- [garment_defect.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Simulation/garment_defect.asm)
+4. Design and Emulate a smart automation system for a garment manufacturing unit with the following requirements:- [garment_defect.asm](/Simulation/garment_defect.asm)
     * To detect all possible defects.
     * To remove the defective pieces.
     * To provide comprehensive inventory report.
-5. Find the largest number from an unordered array of sixteen 8-bit numbers stored sequentially in memory location 2000:5000H. Store the largest number in memory location 2000:5000H.[finding_largest_number_memory.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/finding_largest_number_memory.asm)
+5. Find the largest number from an unordered array of sixteen 8-bit numbers stored sequentially in memory location 2000:5000H. Store the largest number in memory location 2000:5000H.[finding_largest_number_memory.asm](/Expression/finding_largest_number_memory.asm)
 
 # [External add-on devices](https://github.com/jacobjohn2016/8086-Programs/tree/master/External%20Devices)
 
@@ -89,12 +89,12 @@
 [Download link](http://www.emu8086.com)
 
 1. Traffic Lights
-    * [traffic_lights](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/traffic_lights.asm)
-    * [traffic_lights2](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/traffic_lights2.asm)
-2. LED display [LED_display_test.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/LED_display_test.asm)
-3. Stepper Motor [stepper_motor.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/stepper_motor.asm)
-4. Thermometer [thermometer.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/thermometer.asm)
-5. Robot [robot.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/robot.asm)
-6. Timer [timer.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/timer.asm)
-7. Keyboard [keybrd.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/keybrd.asm)
-8. Mouse [mouse.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/External%20Devices/mouse.asm)
+    * [traffic_lights](/External%20Devices/traffic_lights.asm)
+    * [traffic_lights2](/External%20Devices/traffic_lights2.asm)
+2. LED display [LED_display_test.asm](/External%20Devices/LED_display_test.asm)
+3. Stepper Motor [stepper_motor.asm](/External%20Devices/stepper_motor.asm)
+4. Thermometer [thermometer.asm](/External%20Devices/thermometer.asm)
+5. Robot [robot.asm](/External%20Devices/robot.asm)
+6. Timer [timer.asm](/External%20Devices/timer.asm)
+7. Keyboard [keybrd.asm](/External%20Devices/keybrd.asm)
+8. Mouse [mouse.asm](/External%20Devices/mouse.asm)
