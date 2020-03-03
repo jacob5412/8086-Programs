@@ -39,13 +39,13 @@
 
 ## [Conversion](https://github.com/jacobjohn2016/8086-Programs/tree/master/Conversion)
 34. ALP for conversion of 16-bit HEX number into its equivalent BCD number.[hex_bcd.asm](/Conversion/hex_bcd.asm)
-35. ALP for conversion of 16-bit BCD number into its equivalent HEX number. [32_bcd_hex.asm](/Conversion/32_bcd_hex.asm)
-36. ALP for conversion BCD number 7-Segment String. [33_seven_segment.asm](/Conversion/33_seven_segment.asm)
+35. ALP for conversion of 16-bit BCD number into its equivalent HEX number. [bcd_hex.asm](/Conversion/bcd_hex.asm)
+36. ALP for conversion BCD number 7-Segment String. [seven_segment.asm](/Conversion/seven_segment.asm)
 37. ALP to copy the string of successive memory locations from one memory to other.
 
-    a. Using string instructions [34_copy_string_instruction.asm](/Conversion/34_copy_string_instruction.asm)
+    a. Using string instructions [copy_string_instruction.asm](/Conversion/copy_string_instruction.asm)
     
-    b. Without using string instruction [34_copy_without_string_instruction.asm](/Conversion/34_copy_without_string_instruction.asm)
+    b. Without using string instruction [copy_without_string_instruction.asm](/Conversion/copy_without_string_instruction.asm)
 38. Compare two strings [compare_strings.asm](/Conversion/compare_strings.asm)
 39. Reverse a number [reverse_number.asm](/Conversion/reverse_number.asm)
 40. Decimal to binary [decimal_to_binary.asm](/Conversion/decimal_to_binary.asm)
@@ -58,14 +58,14 @@
 45. Array Descending [array_descending.asm](/Sorting/array_descending.asm)
 
 ## [Searching](https://github.com/jacobjohn2016/8086-Programs/tree/master/Searching)
-46. Develop and execute ALP that implements Binary search algorithm. The data consists of sorted 16 bit unsigned integers. The search key is also a 16 bit unsigned integer. [36_binary_search.asm](/Searching/36_binary_search.asm)
+46. Develop and execute ALP that implements Binary search algorithm. The data consists of sorted 16 bit unsigned integers. The search key is also a 16 bit unsigned integer. [binary_search.asm](/Searching/binary_search.asm)
 47. Search Element in an array [search_element_array.asm](/Searching/search_element_array.asm)
 48. Linear Search [linear_search.asm](/Searching/linear_search.asm)
 49. Occurences of character [occurences_character_count.asm](/Searching/occurences_character_count.asm)
 
 # Assessment Programs
 
-1. Emulate a counter on emu8086, to count the no. of 1’s (binary) in the given input value. [22_count_1s.asm](/Arithmetic/22_count_1s.asm)
+1. Emulate a counter on emu8086, to count the no. of 1’s (binary) in the given input value. [count_1s.asm](/Arithmetic/count_1s.asm)
 2. Emulate water level controller on emu8086 for the following Specifications: [water_level_controller.asm](/Simulation/water_level_controller.asm)
     * No. of water levels in the overhead tank is 8
     * Display the current level of water with a buzzer
