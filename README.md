@@ -25,7 +25,7 @@
 20. Develop and execute an ALP to compute factorial of a positive integer number using recursive procedure. [fact.asm](/Expression/fact.asm)
 21. Transfer string from one memory location to another. [copy_string_memory_location.asm](/Expression/copy_string_memory_location.asm)
 22. Count vowels in a word [count_vowels.asm](/Expression/count_vowels.asm)
-23. Calculate power(a,b) i.e a^b [power.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/power.asm)
+23. Calculate power(a,b) i.e a^b [power.asm](/Expression/power.asm)
 24. Average of values stored in an array. [average_sum_array.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/average_sum_array.asm)
 25. Find Reverse of an array. [reverse_array.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/reverse_array.asm)
 26. Prompts the user to enter an array and displays it [prompt_user_array+display.asm](https://github.com/jacobjohn2016/8086-Programs/blob/master/Expression/prompt_user_array%2Bdisplay.asm)
